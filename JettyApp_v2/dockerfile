@@ -1,0 +1,6 @@
+FROM jetty
+
+ADD JettyApp_v2.war /var/lib/jetty/webapps/root.war
+
+EXPOSE 8080
+
